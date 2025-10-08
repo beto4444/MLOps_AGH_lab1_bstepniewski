@@ -1,0 +1,15 @@
+[project]
+name = "mlops-agh-lab1-bstepniewski"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "mlops-agh-lab1-bstepniewski",
+]
+
+[tool.uv.sources]
+mlops-agh-lab1-bstepniewski = { workspace = true }
