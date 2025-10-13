@@ -4,7 +4,12 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "fastapi>=0.119.0",
+    "pre-commit>=4.3.0",
+    "pytest>=8.4.2",
+    "uvicorn>=0.37.0",
+]
 
 [dependency-groups]
 dev = [
